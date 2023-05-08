@@ -1,36 +1,78 @@
-# Unique CV
+## 技术栈
 
-一个使用LaTex编写的简历模板，尽量使用了一些简单的LaTex语句，方便使用者改写。
+JavaScript, TypeScript, React, C/C++, C#/.NET, Python, Java, ML, Linux, Electron, Vue3
 
-### 依赖
+在React&Typescript上有一定的项目经验，对React工程化开发有一定理解。
 
-+ 使用XeLatex编译
-+ 依赖包：ctex, titlesec, color, setspace, fontawesome
+## 校内经历
 
-#### Fedora 25:
-+ 使用`dnf install texlive`安装texlive
-+ 使用`dnf install texlive-ctex`安装依赖包，其他包类似
+- 华中科技大学国家光电中心智能存储实验室
+  - 时间：2022.12 - 2023.06
+  - 工作内容
+    - 异常检测、智能调度前沿算法学习
+    - Trino列存数据库研究，并解决了一个Trino反序列化存储格式Trade-Off的问题
 
-### 参考
+## 企业实习
 
-+ https://github.com/billryan/resume
-+ https://www.sharelatex.com/blog/2013/06/28/how-to-write-a-latex-class-file-and-design-your-own-cv.html
+- 山东立鼎石油科技有限公司
+  - 地点：四川成都
+  - 时间：2023.01 - 2023.03
+  - 工作内容：
+    - 学习WPF工控上位机开发
+    - 提出并研发一套可拓展的.NET平台的机器学习平台框架，并计划投入实际生产
 
-### 依赖包说明
-+ ctex: 支持中文
-+ titlesec: 定制section/subsection的标题
-+ color: 定义颜色
-+ setspace: 设置行间距
-+ fontawesome: 设置常用icon，如电话、邮箱、Github等
+- 北京金山办公软件股份有限公司
+  - 地点：湖北武汉
+  - 时间：2023.03 - 2023.06
+  - 工作内容：
+    - Web页面设计与开发
+    - 后台管理系统与埋点数据处理平台开发
+    - 提出并开发一套针对Email HTML的兼容HTML5语法和响应式布局的CLI转译工具，并开发配套工具链
 
-### 定制建议
-+ \tiny \small \normalsize \large \Large \LARGE \huge \Huge 改变字体大小
-+ \makebox 对齐中间的文字
-+ \begin{spacing}{1.0} 改变行间距
-+ \smallskip \medskip \bigskip 插入垂直空白
-+ ~ \quad \qquad 插入水平空白
-+ \hspace{1.0em} \vspace{1.0ex} 插入水平/垂直空白
-+ \textbf 加粗 \textit 斜体/楷体
+## 个人奖项
 
-### 示例
-![image](https://github.com/dyinnz/uniquecv/blob/master/example.jpg)
+- 2022 MCM 全美大学生数学建模大赛 S奖：2022年2月
+- 2021 华中科技大学优秀共青团员：2021年5月
+- 2020 社会实践优秀个人：2020年9月
+
+
+## 项目经历
+
+### React 网易云音乐
+
+- 时间：2021.09 - 2021.12
+- 项目性质：个人（团队）项目，结课作业
+- 项目简介：利用 React 框架构建前端和 Express 构建后端，实现了全功能网易云播放器
+- 项目亮点：
+  - 项目体量较大，抽象了大量组件和自定义Hook来降低代码耦合度
+  - 脚手架和组件均自己实现
+
+### 视频自动打码工具
+
+- 时间：2022.10 - 2022.11
+- 项目性质：团队项目，结课作业
+- 项目简介：基于 yolo5 和 opencv 实现视频的自动实体识别并进行处理，React + Electron 构建可交互界面
+- 项目亮点：
+  - 使用`canvas`来解析后端传回的图像RGB数组，针对性做了性能调优
+
+### .NET 机器学习平台
+
+- 时间：2023.01 - 至今
+- 项目性质：实习项目
+- 项目简介：在.NET平台提供一套通用的机器学习平台接口，并定义抽象的模型实现以供调用和二次开发
+- 项目亮点：
+  - 可扩展性好，既可以直接利用接口开发模型，又可以导入编写好的Python模型
+  - Pytorch和TensorFlow的Python脚本可以绕过Python直接在C++环境中运行
+  - 提供了通用的抽象基类和功能实现，可供上层软件方便调用和二次开发
+
+### GP 决策树模型
+
+- 时间：2022-02
+- 项目性质：个人项目，竞赛项目
+- 项目简介：将含有金融信息决策因子的决策树编码为比特串，通过遗传算法进行迭代选优
+- 项目亮点：
+  - 针对金融领域信息进行编码
+  - 未使用sklearn等现成的学习库，所有算法均自己实现
+
+
+### 
