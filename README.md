@@ -67,7 +67,7 @@ JavaScript, TypeScript, React, C/C++, C#/.NET, Python, Java, ML, Linux, Electron
 
 ### GP 决策树模型
 
-- 时间：2022-02
+- 时间：2022.02
 - 项目性质：个人项目，竞赛项目
 - 项目简介：将含有金融信息决策因子的决策树编码为比特串，通过遗传算法进行迭代选优
 - 项目亮点：
@@ -75,4 +75,18 @@ JavaScript, TypeScript, React, C/C++, C#/.NET, Python, Java, ML, Linux, Electron
   - 未使用sklearn等现成的学习库，所有算法均自己实现
 
 
-### 
+### React 问卷管理客户端
+
+### React 后台管理系统
+
+### EMail-HTML 编译器
+
+- 时间：2023.04 - 2023.06
+- 项目性质：个人项目，开源项目
+- 项目简介：利用现代HTML5语法和组件化思想构建EMail-HTML的工具链，快速编写和管理EDM
+- 项目亮点：
+  - 支持组件化和响应式断电的语法糖，尽可能减少重复代码编写
+  - 自动编译生成table布局的HTML和内联样式，保持源代码的可维护性
+  - 插件化和过程化的编译流程，高度可自定义
+
+### PyQt5 局域网文件共享
