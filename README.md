@@ -1,8 +1,15 @@
 ## 技术栈
 
-JavaScript, TypeScript, React, C/C++, C#/.NET, Python, Java, ML, Linux, Electron, Vue3
+1. JavaScript, TypeScript, **React**, 
+2. **C#/.NET**, C/C++
+3. Electron, Vue3
+4. Python, **ML**
+5. Java
+6. Linux
 
 在React&Typescript上有一定的项目经验，对React工程化开发有一定理解。
+
+ML较熟悉的模型有：MLP、CNN、RNN、LSTM
 
 ## 校内经历
 
@@ -26,11 +33,12 @@ JavaScript, TypeScript, React, C/C++, C#/.NET, Python, Java, ML, Linux, Electron
   - 时间：2023.03 - 2023.06
   - 工作内容：
     - Web页面设计与开发
-    - 后台管理系统与埋点数据处理平台开发
+    - 埋点数据的前端实现和后端管理
     - 提出并开发一套针对Email HTML的兼容HTML5语法和响应式布局的CLI转译工具，并开发配套工具链
 
 ## 个人奖项
 
+- 2023 MCM 全美大学生数学建模大赛 H奖（二等奖）：2023年2月
 - 2022 MCM 全美大学生数学建模大赛 S奖：2022年2月
 - 2021 华中科技大学优秀共青团员：2021年5月
 - 2020 社会实践优秀个人：2020年9月
